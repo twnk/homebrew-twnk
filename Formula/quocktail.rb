@@ -1,20 +1,20 @@
 class Quocktail < Formula
   desc "Rust CLI for searching through nested directories of markdown files with frontmatter, filtering and displaying the results"
-  version "0.1.5"
+  version "0.1.6"
   on_macos do
     on_arm do
-      url "https://github.com/twnk/quocktail/releases/download/v0.1.5/quocktail-aarch64-apple-darwin.tar.xz"
-      sha256 "ca96b7cb8eec2072f44b8f82fbe80a2a3137b66d4adc6668f0127e41b2cf640a"
+      url "https://github.com/twnk/quocktail/releases/download/v0.1.6/quocktail-aarch64-apple-darwin.tar.xz"
+      sha256 "ce4e8b853529ffff043dd8d9a97d9bc2da46daeae0f9b89fdd77eecb2770ab87"
     end
     on_intel do
-      url "https://github.com/twnk/quocktail/releases/download/v0.1.5/quocktail-x86_64-apple-darwin.tar.xz"
-      sha256 "18358610f0602227bec1a67b407d87fc8890bb3e4461ab163adf6c594cb2b563"
+      url "https://github.com/twnk/quocktail/releases/download/v0.1.6/quocktail-x86_64-apple-darwin.tar.xz"
+      sha256 "fa4445712a19d65bbf2b6bc60954cf6f14af2248f9f413640433f5063cfc42db"
     end
   end
   on_linux do
     on_intel do
-      url "https://github.com/twnk/quocktail/releases/download/v0.1.5/quocktail-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "39745fd22e832673a2811c42b979a21dca9bb0193035b69ab48811dc9dca0b08"
+      url "https://github.com/twnk/quocktail/releases/download/v0.1.6/quocktail-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "5c8cb7f29c0596d42af9382ec16230c293bfdb3333a863d871dee7bfa33a28c3"
     end
   end
   license "GPL-3.0-or-later"
